@@ -13,7 +13,7 @@ nav {
     position: absolute;
     top: 110px;
     right: 0;
- }
+}
 
 nav li {
     display: inline;
@@ -26,6 +26,11 @@ nav a {
     font-weight:  bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
 }
 
 .produtos {
@@ -44,21 +49,16 @@ nav a {
     box-sizing: border-box;
 }
 
-.produtos h2 {
-    font-size:  30px;
-    font-weight: bold;
-}
-
 .produtos li:hover {
     border-color: #c78c19;
 }
 
 .produtos li:active {
-border-color: #088c19;
+    border-color: #088C19;
 }
 
 .produtos li:hover h2 {
-    font-size: 34xp;
+    font-size:  34px;
     font-weight: bold;
 }
 
@@ -75,11 +75,11 @@ border-color: #088c19;
 footer {
     text-align: center;
     background: url("img/bg.jpg");
-    padding: 40xp 0;
+    padding: 40px 0;
 }
 
 .copyright {
     color: #FFFFFF;
-    font-size:  13px;
-    margin: 20xp 0 0;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
